@@ -302,7 +302,7 @@
 
         try {
           userWs = new WebSocket(
-            `ws://127.0.0.1:8000/api/v1/ws/user?token=${token}`
+            `ws://aut-bank-backend.up.railway.app/api/v1/ws/user?token=${token}`
           );
 
           userWs.onerror = (error) => {
@@ -363,7 +363,7 @@
 
         try {
           adminWs = new WebSocket(
-            `ws://127.0.0.1:8000/api/v1/ws/admin?token=${token}`
+            `ws://aut-bank-backend.up.railway.app/api/v1/ws/admin?token=${token}`
           );
 
           adminWs.onerror = (error) => {
